@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+	font-size: 1em;
+}
+
+#header-nav {
+	margin-bottom: 0px;
+}
+/*Header Start*/
+.container {
+	/*margin:10px 10px 10px 10px;*/
+	width: 100%;
+	padding:0px;
+	margin:0px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+header .navbar-brand{
+	font-weight: bold;
+	padding-left: 23px;
+}
+
+#collapsable-nav #nav-list li {
+	text-align: center;
+	border-top: 1px solid #61122f;
+}
+#collapsable-nav #nav-list li:nth-child(3){
+	border-bottom: 1px solid #61122f;
+}
+@media (min-width: 768px) {
+#collapsable-nav #nav-list {
+	display: none;
+}}
+
+/*Header End*/
+/*Content Section Start*/
+#content-start {
+	margin-top: 0px;
+}
+/*.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}*/
+.row.no-gutter .content-section:not(:first-of-type),
+.row.no-gutter .content-section:not(:last-child){
+  padding-right: 0;
+  padding-left: 0;
+}
+.row.no-gutter .content-section:first-of-type,
+.row.no-gutter .content-section:last-child {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.container section {
+	height: 1000px;
+	margin: 0px;
+}
+.container section .content-section div{
+	padding: 0px 5px 0px 5px
+}
+.content-section div {
+background-color: grey;
+}
+#header {
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 1.8em;
+}
+ .header2 {
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 5px;
+	padding-top: 5px;
+}
